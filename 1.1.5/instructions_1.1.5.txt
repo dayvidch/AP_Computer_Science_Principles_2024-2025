@@ -1,0 +1,35 @@
+'''Instructions'''
+
+#This is going to be a text file that we will be using for all of our answers for 1.1.5. All coding work will go into other files
+
+'''Robot Maze'''
+
+'''College Board: '''
+#1-4 Folloed instructions on Canvas to get 1.1.5 folder set-up properly
+
+# 5 
+#   a) What errors do you get when you run "maze1.py"?
+#   The error that I got when running the code was that it couldnt open robot.gif because there was no such file directory. 
+#   Also line 40 didnt work because the image was not accessable.
+#
+#   b)What did you do to fix those errors?
+#   I fixed the errors by moving them out of the sub folder. 
+#
+
+
+#6
+#   a) program all of Maze 1 in "maze1.py"
+#   done
+#   b) program all of Maze 2 in "maze2.py"
+#   done
+#   c) program all of Maze 3 in "maze3.py"
+#   done
+
+# Discussion Prompt: Instead of elbow partner, share with the other group at your table and record the similarities and differnces here
+    Some similarities that we had were the end results. At the end, we all got our code to work. Something that was different was that for maze 2,
+    some people went in one dirrection first, while I went the other dirrection. I went right first, and they went left. 
+
+'''Conclusion'''
+#1 The ways that algorithms helped my development was that it was really reuseable. I was able to use my code again. And alot of the movements were repetative.
+One way that algotrithms hindered my development was that it was more of a hassle than help at sometimes.
+I could of done things a lot faster and with less code if I didnt need to do all the loops and stuff.
