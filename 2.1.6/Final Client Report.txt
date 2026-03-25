@@ -1,0 +1,20 @@
+Final Client Report
+
+Issues:
+alkalinity.moniter(), temperature.moniter(), and magnesium.moniter()
+
+Solutions: 
+For alkalinity.moniter(), the range logic was wrong, and you had to switch the values. 
+    This is because you had the higher value be the lower range and the lower value be the upper range which results in an errors
+For temperature.moniter(), num_readings was set to 0. You then used it as a denominatior, which is an error.
+    You had to set it equal to len(temp_readings)
+For magnesium.moniter(),  the condition (current > mag_levels[num_levels]) is incorrect
+    you have to replace mag_levels([num_levels]) with  elif (current > mag_levels[-1]) 
+    in order for it to work correctly because you are checking it with the last one. 
+
+These Issues have all been resolved
+
+Recommendations:
+What we recommend is in the GUI there should be a more indept report.
+For what went well, explain what went well, and give the final values to verify it.
+For what did not go well, explain why it failed, and gives the values for those too.
